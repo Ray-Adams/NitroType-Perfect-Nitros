@@ -9,12 +9,12 @@
 // @grant        none
 // ==/UserScript==
 
-(() => {
+const options = {
+    highlightColor: '#ffff00',
+    intervalMs: 100
+};
 
-    const options = {
-        highlightColor: '#ffff00',
-        intervalMs: 100
-    };
+(() => {
 
     const client = () => {
 
